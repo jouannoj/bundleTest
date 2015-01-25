@@ -11,7 +11,7 @@
     ],
     "extra":{
         "branch-alias":{
-            "dev-develop" :"1.x-dev"
+            "dev-master" :"0.x-dev"
         }
     },
     "require": {
@@ -21,5 +21,5 @@
     "autoload": {
         "psr-4": { "JXF\\Bundle\\bundleTest\\": "" }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
