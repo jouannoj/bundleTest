@@ -12,7 +12,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  *
  * @author Alan Doucette <dragonwize@gmail.com>
  */
-class DeleteCommand extends CacheCommand
+class DeleteCommand extends Command
 {
     /**
      * {@inheritdoc}
