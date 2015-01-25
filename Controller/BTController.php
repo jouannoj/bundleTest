@@ -12,12 +12,11 @@ class BTController extends Controller {
 
     /**
      * * @Route("/", name="index")
-     * @Route("/index", name="homepage")
+     * @Route("/index", name="bthomepage")
      
      */
     public function indexAction() {
-var_dump($request = $this->container->get('request')->get('_route'));
-        return $this->render('default/index.html.twig');
+        return $this->render('bundleTestBundle:tata:toto.html.twig');
     }
     
     /**
